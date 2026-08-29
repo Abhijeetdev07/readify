@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851555659040",
+    "project_id": "chatsup-fb0b4",
+    "storage_bucket": "chatsup-fb0b4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851555659040:android:1cc0c3dfe160ad513bfb45",
+        "android_client_info": {
+          "package_name": "com.example.readify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6oKoEIRkK5c7ZCrxd6uKlAdsoaNlSA-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
