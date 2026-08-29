@@ -68,28 +68,6 @@ This document establishes the end-to-end, production-grade development roadmap f
 
 # 📅 Phase-Wise Implementation Roadmap
 
-```mermaid
-gantt
-    title Development Phases
-    dateFormat  YYYY-MM-DD
-    section Core & Storage
-    Phase 1: Environment & Firebase Setup      :p1, 2026-09-01, 2d
-    Phase 2: SQLite & Offline Storage Engine   :p2, after p1, 3d
-    section Auth & Social
-    Phase 3: Auth System & Profiles           :p3, after p2, 3d
-    Phase 4: Friend Request & Contact Graph    :p4, after p3, 2d
-    section Chat & Media
-    Phase 5: Real-Time Messaging & Sync Engine :p5, after p4, 4d
-    Phase 6: Rich Media Engine (Voice/Video)   :p6, after p5, 4d
-    section Calling & Integration
-    Phase 7: ZegoCloud Calling Engine          :p7, after p6, 3d
-    Phase 8: Tabs, Navigation & Stealth Gate   :p8, after p7, 2d
-    section QA & Release
-    Phase 9: Security, Edge Cases & Testing    :p9, after p8, 3d
-    Phase 10: Production Release & ProGuard    :p10, after p9, 2d
-```
-
----
 
 ## 📍 Phase 1: Environment, Dependencies & Firebase Initialization
 **Goal:** Prepare the Flutter project, establish the secret directory hierarchy, and link Firebase services without breaking Readify's existing PDF functions.
